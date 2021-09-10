@@ -1,0 +1,23 @@
+.header-maincontainer {
+    width: 99.75%;
+    height: 47.5px;
+    display: flex;
+    background-color: #feffff;
+    align-items: center;
+    border: 1.5px solid #e1e4e5;
+}
+
+.header-projectname {
+    width: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width:450px) {
+    .header-projectname h2 {
+        font-size: 1.3em;
+    }
+
+    .header-maincontainer {
+        width: 99.25%;
+    }
+}

@@ -1,0 +1,53 @@
+.mainpage-maincontainer {
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagecontainer {
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoncontainer {
+    width: 350px;
+}
+
+.imagecontainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.mainpage-maincontainer button {
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1a1a1a;
+}
+
+@media screen and (max-width:450px) {
+    .mainpage-maincontainer {
+        height: 84vh;
+    }
+
+    .imagecontainer {
+        height: 400px;
+        width: 300px;
+    }
+
+    .buttoncontainer {
+        width: 300px;
+    }
+}
